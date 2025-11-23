@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
-
+import { Link } from 'react-router-dom'
 const Footer = () => {
   const [showScroll, setShowScroll] = useState(false)
 
@@ -37,21 +36,21 @@ const Footer = () => {
           <div>
             <ul class="list-inline mb-0">
               <li class="list-inline-item mx-1">
-                <a href="#" class="icon fb wow animate__animated animate__fadeInDown">
+                <Link to="#" class="icon fb wow animate__animated animate__fadeInDown">
                   <img src="/assets/img/facebook.png" alt=""/>
-                </a>
+                </Link>
               </li>
 
               <li class="list-inline-item mx-1">
-                <a href="#" class="icon x wow animate__animated animate__fadeInDown">
+                <Link to="#" class="icon x wow animate__animated animate__fadeInDown">
                   <img src="/assets/img/twitter.png" alt=""/>
-                </a>
+                </Link>
               </li>
 
               <li class="list-inline-item mx-1">
-                <a href="#" class="icon ig wow animate__animated animate__fadeInDown">
+                <Link to="#" class="icon ig wow animate__animated animate__fadeInDown">
                   <img src="/assets/img/instagram.png" alt=""/>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

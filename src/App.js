@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 import PaymentTabs from "./components/PaymentTabs";
 import BackgroundVideo from "./components/BackgroundVideo";
 import { useEffect } from "react";
-
+import { BrowserRouter } from "react-router-dom";
 function App() {
   useEffect(()=>{
  new WOW.WOW({
@@ -26,6 +26,7 @@ function App() {
  }, []);
   return (
     <div>
+      <BrowserRouter>
      <HeroSection/>
      <PaymentsSection/>
      <AnimatedText/>
@@ -38,6 +39,7 @@ function App() {
      <Testimonials/>
      {/* <ExpertiseSlider/> */}
      <Footer/>
+     </BrowserRouter>
     </div>
   );
 }

@@ -14,7 +14,7 @@ export default function PayoutSection() {
           <div>
           <div className="tag wow animate__animated animate__slideInRight">Payout Service Centric</div>
 
-          <h1 class="display-5 fw-bold mt-4 text-white h1-head mb-3 wow animate__animated animate__slideInUp"> Streamlined for Payout Ease and <br /> Efficiency</h1>
+          <h1 className="display-5 fw-bold mt-4 text-white h1-head mb-3 wow animate__animated animate__slideInUp"> Streamlined for Payout Ease and <br /> Efficiency</h1>
 
           <div className="feature mb-4">
             <div className="dot"></div>
@@ -50,7 +50,7 @@ export default function PayoutSection() {
           </div>
 
           {/* <button className="start-btn">Get Started →</button> */}
-          <button class="btn-glow wow animate__animated animate__fadeInDown">Get Started <span class="arrow">›</span></button>
+          <button className="btn-glow wow animate__animated animate__fadeInDown">Get Started <span className="arrow">›</span></button>
         </div>
         </div>
 

@@ -153,7 +153,7 @@ const PaymentTabs = () => {
             ))}
           </ul>
         
-          <button class="btn-glow wow animate__animated animate__fadeInLeft">Get Started <span class="arrow">›</span></button>
+          <button className="btn-glow wow animate__animated animate__fadeInLeft">Get Started <span className="arrow">›</span></button>
         </div>
 
         <div className="image-content   wow animate__animated animate__fadeInRight">

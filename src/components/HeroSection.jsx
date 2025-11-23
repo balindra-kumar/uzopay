@@ -1,13 +1,13 @@
 import React from "react"
 import "../assets/style.sass"
-
+import { Link } from "react-router-dom"
 
 export default function HeroSection() {
   return (
     <section className="hero">
       <div className="container">  
         <nav className="navbar navbar-expand-lg navbar-dark nav-glass px-4">
-            <a className="navbar-brand fw-bold text-white" href="#">UzOPay</a>
+            <Link className="navbar-brand fw-bold text-white" to="/">UzOPay</Link>
 
             <button
             className="navbar-toggler"
@@ -21,29 +21,29 @@ export default function HeroSection() {
             <div className="collapse navbar-collapse" id="navMenu">
            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link nav-active" href="#">Home</a>
+                <Link className="nav-link nav-active" to="/">Home</Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  
                   id="aiBankingDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   AI Banking
-                </a>
+                </Link>
                 <ul className="dropdown-menu" aria-labelledby="aiBankingDropdown">
-                  <li><a className="dropdown-item" href="#">Dashboard</a></li>
-                  <li><a className="dropdown-item" href="#">Analytics</a></li>
-                  <li><a className="dropdown-item" href="#">Reports</a></li>
+                  <li><Link className="dropdown-item" to="/dashboard">Dashboard</Link></li>
+                  <li><Link className="dropdown-item" to="/analytic">Analytics</Link></li>
+                  <li><Link className="dropdown-item" to="/report">Reports</Link></li>
                 </ul>
               </li>
-              <li className="nav-item"><a className="nav-link" href="#">Payments</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">Payouts</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">Payroll</a></li>
-              <li className="nav-item"><a className="nav-link" href="#">Contact Us</a></li>
+              <li className="nav-item"><Link className="nav-link" to="/payment">Payments</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/payout">Payouts</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/payroll">Payroll</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/contact">Contact Us</Link></li>
             </ul>
 
             </div>

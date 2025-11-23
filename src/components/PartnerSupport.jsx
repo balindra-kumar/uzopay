@@ -9,7 +9,7 @@ const PartnerSupport = () => {
         <div className="container">
           <div className="ps-header-section">
             <div className="ps-header-subtitle  wow animate__animated animate__fadeInLeft">Reasons to Partner</div>
-            <h1 class="display-5 fw-bold mt-4 text-white h1-head   wow animate__animated animate__fadeInRight"> Exceptional Support for Your <br /> Success</h1>
+            <h1 className="display-5 fw-bold mt-4 text-white h1-head   wow animate__animated animate__fadeInRight"> Exceptional Support for Your <br /> Success</h1>
           </div>
 
           <div className="ps-cards-grid">

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+
 const Footer = () => {
   const [showScroll, setShowScroll] = useState(false)
 
@@ -32,24 +33,24 @@ const Footer = () => {
         <div className="col-md-4">
           <h5 className="wow animate__animated animate__fadeInLeft">UzOPay</h5>
           <p className='  wow animate__animated animate__fadeInDown'>Our payment gateway simplifies transactions for e-commerce businesses, delivering fast and secure processing. With smooth integration, we enhance your store's payment capabilities.</p>
-          <div class="footer-social py-4">
+          <div className="footer-social py-4">
           <div>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item mx-1">
-                <Link to="#" class="icon fb wow animate__animated animate__fadeInDown">
+            <ul className="list-inline mb-0">
+              <li className="list-inline-item mx-1">
+                <Link to="#" className="icon fb wow animate__animated animate__fadeInDown">
                   <img src="/assets/img/facebook.png" alt=""/>
                 </Link>
               </li>
 
-              <li class="list-inline-item mx-1">
-                <Link to="#" class="icon x wow animate__animated animate__fadeInDown">
+              <li className="list-inline-item mx-1">
+                <Link to="#" className="icon x wow animate__animated animate__fadeInDown">
                   <img src="/assets/img/twitter.png" alt=""/>
                 </Link>
               </li>
 
-              <li class="list-inline-item mx-1">
-                <Link to="#" class="icon ig wow animate__animated animate__fadeInDown">
-                  <img src="/assets/img/instagram.png" alt=""/>
+              <li className="list-inline-item mx-1">
+                <Link to="#" className="icon ig wow animate__animated animate__fadeInDown">
+                  <img src="/assets/img/instagram.png" alt="xv"/>
                 </Link>
               </li>
             </ul>
